@@ -3,11 +3,13 @@ import { NgModule } from '@angular/core';
 
 
 import { AppComponent } from './app.component';
+import { SideNavigationComponent } from './side-navigation/side-navigation.component';
 
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    SideNavigationComponent
   ],
   imports: [
     BrowserModule
